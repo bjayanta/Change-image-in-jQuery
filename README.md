@@ -1,4 +1,4 @@
-# How to show image on-change event using Javascript/jQuery?
+# How to show image on-change event using ES6/jQuery?
 Just follow the step bellow:
 1.  Initialize a empty FileReader
 2.  select the image on-change event
@@ -28,7 +28,7 @@ document.getElementById("change-img").addEventListener("change", (ev) => {
 });
 ```
 
-// Using jQuery(>=3.1.1)
+## Using jQuery(>=3.1.1)
 ```javascript
 // Initialize a empty FileReader
 var reader  = new FileReader();
